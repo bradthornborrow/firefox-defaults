@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set source path to script location 
-$SOURCE_PATH="$( cd -- "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
+SOURCE_PATH="$( cd -- "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
 
 # Change to default Firefox config directory
 if [ -d "$HOME/Library/Application Support/Firefox" ]; then
