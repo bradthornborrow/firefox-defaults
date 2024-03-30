@@ -8,12 +8,11 @@
   justify-content: center !important;
 }
 
-/* Decrease bookmark menu padding */
-menupopup > menuitem, menupopup > menu {
-    padding-block: 7px !important;
+.bookmark-item:not(#PlacesToolbar menuitem, menu) {
+margin-inline: 3px !important;
 }
 
-/* Increase favourites toolbar spacing */
-root {
- --arrowpanel-menuitem-padding: 4px 8px !important;
+/* Decrease bookmark menu padding */
+menupopup > menuitem, menupopup > menu {
+    padding-block: 6px !important;
 }
