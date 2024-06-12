@@ -9,10 +9,10 @@
 }
 
 .bookmark-item:not(#PlacesToolbar menuitem, menu) {
-margin-inline: 3px !important;
+margin-inline: 5px !important;
 }
 
 /* Decrease bookmark menu padding */
 menupopup > menuitem, menupopup > menu {
-    padding-block: 6px !important;
+    padding-block: 5px !important;
 }
