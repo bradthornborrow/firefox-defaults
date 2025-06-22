@@ -8,3 +8,6 @@ user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
 //
 // Enable custom Search engines
 user_pref("browser.urlbar.update2.engineAliasRefresh", true);
+//
+// Disable ML chat functionality
+user_pref("browser.ml.chat.enabled", false);
