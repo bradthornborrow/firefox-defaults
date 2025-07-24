@@ -10,5 +10,15 @@
 
 /* Increase bookmark toolbar padding */
 .bookmark-item:not(#PlacesToolbar menuitem, menu) {
-  margin-inline: 4px !important;
+  margin-inline: 8px !important;
+}
+
+/* Disable favicons on the favorites bar */
+toolbarbutton.bookmark-item > .toolbarbutton-icon {
+  display: none!important;
+}
+
+/* Disable status bar at bottom */
+#statuspanel {
+   display: none !important;
 }
