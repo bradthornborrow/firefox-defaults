@@ -2,8 +2,8 @@
 //
 // Mac-like touchpad scrolling for Linux
 //
-user_pref("mousewheel.default.delta_multiplier_y", 50);
-user_pref("mousewheel.system_scroll_override.enabled", false);
+// user_pref("mousewheel.default.delta_multiplier_y", 50);
+// user_pref("mousewheel.system_scroll_override.enabled", false);
 //
 // Enable User Chrome customizations
 //
