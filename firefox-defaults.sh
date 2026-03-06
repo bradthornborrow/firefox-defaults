@@ -7,7 +7,7 @@ SOURCE_PATH="$( cd -- "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
 if [ -d "$HOME/Library/Application Support/Firefox" ]; then
 	cd ~/Library/Application\ Support/Firefox
 else
-	cd -- "$(find $HOME -ipath "*/.mozilla/firefox" -type d -printf '%h' -quit)"/firefox
+	cd -- "$(find $HOME -ipath "*/mozilla/firefox/profiles.ini" -type d -printf '%h' -quit)"
 fi
 
 # Locate default Firefox profile directory
